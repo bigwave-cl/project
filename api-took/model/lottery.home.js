@@ -2,7 +2,7 @@
  * @Author: askMeWhy
  * @Date:   2017-10-20 16:35:59
  * @Last Modified by:   bigWave
- * @Last Modified time: 2017-12-07 17:01:57
+ * @Last Modified time: 2017-12-28 14:38:59
  */
 const Lottery = {
 	"ok": false,
@@ -12,7 +12,7 @@ const Lottery = {
 		"lot_id": 411,
 		"open_yb": "1000",
 		"join_num": 1,
-		"has_get_code": true,
+		"has_get_code": false,
 		"records": "http://test.xiuzhimeng.com/fqb/page/lot/record?lot_id=411&t=1508488515",
 		"detail": "http://test.xiuzhimeng.com/fqb/page/lot/winners?lot_id=411&t=1508488515",
 		"rule_url": "http://test.xiuzhimeng.com/fqb/page/lot/rule",
@@ -40,9 +40,9 @@ const Lottery = {
 				"name": "虚位以待"
 			}
 		],
-		"get_code_begin": 1512635259,
-		"get_code_end": 1512635319,
-		"open_time": 1512635439,
+		"get_code_begin": 1514443200,
+		"get_code_end": 1514443260,
+		"open_time": 1514443320,
 		"times": 2,
 		"is_try": false,
 		"prizes": [{
@@ -53,7 +53,7 @@ const Lottery = {
 				"num": "1",
 				"codes": "3828,6666,3828,6666,3828,6668",
 				"open_time": 1508753760,
-				"next_open_time": 1512635499,
+				"next_open_time": 1514443380,
 				"is_open": true,
 				"is_winner": true
 			},
@@ -65,7 +65,7 @@ const Lottery = {
 				"num": "1",
 				"codes": "3765",
 				"open_time": 1503299460,
-				"next_open_time": 1512635559,
+				"next_open_time": 1514443440,
 				"is_open": true,
 				"is_winner": false
 			},
@@ -77,7 +77,7 @@ const Lottery = {
 				"num": "1",
 				"codes": "3032",
 				"open_time": 1503306614,
-				"next_open_time": 1512644139,
+				"next_open_time": 1514443560,
 				"is_open": true,
 				"is_winner": true
 			}
