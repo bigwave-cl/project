@@ -2,7 +2,7 @@
  * @Author: askMeWhy
  * @Date:   2018-01-30 15:19:55
  * @Last Modified by:   bigWave
- * @Last Modified time: 2018-02-12 14:54:04
+ * @Last Modified time: 2018-03-30 10:37:00
  */
 const CategoryModel = {
 	"ok": true,
@@ -65,7 +65,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "0.1"
+			"price": "10.1"
 		},
 		{
 			"id": "10309",
@@ -76,7 +76,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "1.79"
+			"price": "10.1"
 		},{
 			"id": "10310",
 			"name": "一个颜色",
@@ -86,7 +86,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "0.12"
+			"price": "12"
 		},
 		{
 			"id": "10311",
@@ -97,7 +97,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "1.2"
+			"price": "100"
 		},{
 			"id": "10312",
 			"name": "一个颜色",
@@ -107,7 +107,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "1"
+			"price": "12"
 		},
 		{
 			"id": "10313",
@@ -118,7 +118,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "1.2"
+			"price": "12.2"
 		},{
 			"id": "10314",
 			"name": "一个颜色",
@@ -128,7 +128,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "1"
+			"price": "13.2"
 		},
 		{
 			"id": "10315",
@@ -139,7 +139,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "1.2"
+			"price": "15.2"
 		},{
 			"id": "10316",
 			"name": "一个颜色",
@@ -149,7 +149,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "1"
+			"price": "18"
 		},
 		{
 			"id": "10317",
@@ -160,7 +160,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "1.2"
+			"price": "19.2"
 		},{
 			"id": "10318",
 			"name": "一个颜色",
@@ -170,7 +170,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "1"
+			"price": "100"
 		},
 		{
 			"id": "10320",
@@ -181,7 +181,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "1.2"
+			"price": "100.2"
 		},{
 			"id": "10321",
 			"name": "一个颜色",
@@ -191,7 +191,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "1"
+			"price": "17"
 		},
 		{
 			"id": "10322",
@@ -202,7 +202,7 @@ const GoodModel = {
 			"sale_nums": "0",
 			"lovenum": "0",
             "goods_no": "123456",
-			"price": "1.2"
+			"price": "18.2"
 		}
 	],
 	"hasmore": false,
@@ -220,7 +220,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -230,7 +230,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -247,7 +247,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -257,7 +257,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -274,7 +274,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -284,7 +284,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -301,7 +301,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -311,7 +311,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -328,7 +328,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -338,7 +338,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -355,7 +355,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -365,7 +365,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -382,7 +382,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -392,7 +392,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -409,7 +409,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -419,7 +419,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -436,7 +436,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -446,7 +446,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -463,7 +463,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -473,7 +473,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -490,7 +490,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -500,7 +500,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -517,7 +517,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -527,7 +527,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -544,7 +544,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -554,7 +554,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -571,7 +571,7 @@ const OrderModel = {
                     "good_id" : "7444", 
                     "good_no" : "201704120002", 
                     "name" : "美食", 
-                    "price" : "3.03", 
+                    "price" : "30.03", 
                     "count" : "3", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/%E7%88%86%E7%82%92%E9%B1%BF%E9%B1%BCbanner300X300.jpg",
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
@@ -581,7 +581,7 @@ const OrderModel = {
                     "good_id" : "9491", 
                     "good_no" : "126874", 
                     "name" : "乐事", 
-                    "price" : "0.10", 
+                    "price" : "100.10", 
                     "count" : "2", 
                     "pic" : "http://subimg.xiuzhimeng.com/ups/2016/08/58654/178/12%E4%B8%BB-7.jpg", 
                     "pic2" : "http://cibyl.com.cn/media/images/shop/mhdp.png" 
