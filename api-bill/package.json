@@ -14,7 +14,7 @@
     "formidable": "^1.1.1",
     "jssha": "^2.3.1",
     "mongoose": "^4.13.5",
-    "morgan": "~1.8.1",
+    "morgan": "~1.9.1",
     "qs": "^6.5.1",
     "request": "^2.83.0",
     "serve-favicon": "~2.4.2",
