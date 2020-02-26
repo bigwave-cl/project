@@ -1,8 +1,8 @@
 /*
 * @Author: askMeWhy
 * @Date:   2018-10-17 11:04:02
-* @Last Modified by:   bigwave
-* @Last Modified time: 2018-10-24 16:36:21
+* @Last Modified by:   AskMeWhy
+* @Last Modified time: 2020-02-26 17:57:19
 */
 var WebSocket = require('ws');
 var WebSocketServer = WebSocket.Server,
@@ -48,10 +48,9 @@ wss.on('connection', function(ws) {
 });
 
 function wsSend(type, client_uuid, nickname, data ,time, online){
-	for (var i = 0 , l = clients.length; i < l; i++) {
-		var clientSocket = clients[i].ws;
+	clients.map(clientItem=>{
+		var clientSocket = clientItem.ws;
 		if(clientSocket.readyState === WebSocket.OPEN){
-			// clients[i].id == client_uuid
 			clientSocket.send(JSON.stringify({
 				type: type,
 				id : client_uuid,
@@ -60,7 +59,7 @@ function wsSend(type, client_uuid, nickname, data ,time, online){
 				nickname: nickname
 			}));
 		}
-	}
+	})
 }
 
 function getDate(){
@@ -77,20 +76,20 @@ function handleDate(val,max){
 }
 
 function closeSocket(client_uuid, nickname, message ){
-	for (var i = 0; i < clients.length; i++) {
-	    if (clients[i].id == client_uuid) {
-	        var disconnect_message;
-	        if (message) {
-	            disconnect_message = message;
-	        } else {
-	            disconnect_message = {
-	            	msg: "\'"+ nickname + "\' 已下线"
-	            }
-	        }
-	        wsSend("system", client_uuid, nickname, disconnect_message);
-	        clients.splice(i, 1);
-	    }
-	}
+	clients.map((clientItem,index)=>{
+		if (clientItem.id == client_uuid) {
+		    var disconnect_message;
+		    if (message) {
+		        disconnect_message = message;
+		    } else {
+		        disconnect_message = {
+		        	msg: "\'"+ nickname + "\' 已下线"
+		        }
+		    }
+		    wsSend("system", client_uuid, nickname, disconnect_message);
+		    clients.splice(index, 1);
+		}
+	})
 }
 
 function postMessage(id = '',client_uuid,nickname){

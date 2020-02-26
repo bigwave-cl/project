@@ -1,14 +1,14 @@
 /*
 * @Author: askMeWhy
 * @Date:   2018-10-18 10:41:26
-* @Last Modified by:   bigwave
-* @Last Modified time: 2018-10-25 16:56:14
+* @Last Modified by:   AskMeWhy
+* @Last Modified time: 2020-02-26 17:58:48
 */
 const { ParkModel,ParkGateModel } = require('../model/park.js');
 let p = ParkModel;
-setTimeout(()=>{
-	p = ParkModel.slice(0,4);
-}, 20*1000);
+// setTimeout(()=>{
+// 	p = ParkModel.slice(0,10);
+// }, 20*1000);
 const parkController = {
 	all(req,res){
 

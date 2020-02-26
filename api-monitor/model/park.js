@@ -1,8 +1,8 @@
 /*
  * @Author: askMeWhy
  * @Date:   2018-10-18 11:14:20
- * @Last Modified by:   bigwave
- * @Last Modified time: 2018-10-25 16:31:25
+ * @Last Modified by:   AskMeWhy
+ * @Last Modified time: 2020-02-26 17:57:29
  */
 let ParkModel = [{
 		// "park_id": 104536,
@@ -84,7 +84,6 @@ let ParkModel = [{
 		"park_id": 125472,
 		"park_name": "竹园",
 		"link_status": 1
-
 	}
 ];
 function buildModel(){
