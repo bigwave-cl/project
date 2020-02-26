@@ -14,7 +14,7 @@ _port.then(r=>{
    * Get port from environment and store in Express.
    */
 
-  var port = normalizePort(r.port || '3000');
+  var port = normalizePort(r.port || '8000');
   app.set('port', port);
 
   /**
